@@ -1,0 +1,89 @@
+<section class="section-reviews">
+  <div class="conteiner">
+    <h2>chocolate <span>is loved</span></h2>
+    <ul id="mySS">
+      <li>
+        <img
+          src="./images/Victoria_Dobrzhanska.jpg"
+          alt="Victoria Face Photo"
+          width="80px"
+          height="80px"
+        />
+        <div>
+          <h3>Victoria Dobrzhanska</h3>
+          <p>
+            I love this chocolate bar. Perfect combination of light crispy wafer, covered in a thin
+            layer chocolate.
+          </p>
+        </div>
+      </li>
+      <li>
+        <img
+          src="./images/Nazar_Babenko.jpg"
+          alt="Victoria Face Photo"
+          width="80px"
+          height="80px"
+        />
+        <div>
+          <h3>Nazar Babenko</h3>
+          <p>
+            This chocolate confection is a delight! A delight! The wafer is light and crisp, the
+            hazelnut cream is smooth, and the chocolate is good.
+          </p>
+        </div>
+      </li>
+      <li>
+        <img
+          src="./images/Olena_Kampusch.jpg"
+          alt="Victoria Face Photo"
+          width="80px"
+          height="80px"
+        />
+        <div>
+          <h3>Olena Kampusch</h3>
+          <p>
+            Chocolate is a family favourite treat. Love the delicious smooth chocolate and the
+            creaminess inside. The wafer is soft but crunchy.
+          </p>
+        </div>
+      </li>
+    </ul>
+    <div class="reviews-buttons">
+      <button class="review-button1" type="button" onclick="scrollTo1()" />
+      <button class="review-button2 button-mobile" type="button" onclick="scrollTo2()" />
+      <button class="review-button3 button-mobile" type="button" onclick="scrollTo3()" />
+      <button class="review-buttonT button-tablet" type="button" onclick="scrollToT()" />
+    </div>
+    <button class="review-button-open" type="button"><span>Leave a review</span></button>
+  </div>
+</section>
+<script>
+  const scrollTo1 = () => {
+    const div = document.getElementById('mySS');
+    div.scrollTo({
+      left: 0,
+      behavior: 'smooth',
+    });
+  };
+  const scrollTo2 = () => {
+    const div = document.getElementById('mySS');
+    div.scrollTo({
+      left: 359,
+      behavior: 'smooth',
+    });
+  };
+  const scrollTo3 = () => {
+    const div = document.getElementById('mySS');
+    div.scrollTo({
+      left: 718,
+      behavior: 'smooth',
+    });
+  };
+  const scrollToT = () => {
+    const div = document.getElementById('mySS');
+    div.scrollTo({
+      left: 368,
+      behavior: 'smooth',
+    });
+  };
+</script>
