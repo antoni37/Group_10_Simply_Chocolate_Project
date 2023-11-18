@@ -1,3 +1,4 @@
+@import url(./global.css);
 @import url(./header.css);
 @import url(./hero.css);
 @import url(./advantages.css);
@@ -8,37 +9,3 @@
 @import url(./reviews.css);
 @import url(./subscribe.css);
 @import url(./footer.css);
-
-body{
-    font-family: Montserrat, sans-serif;
-    color: #111;
-    background-color: #fafafa;
-}
-
-* {
-    box-sizing: border-box;
-    max-width: 100%;
-    height: auto;
-}
-
-img {
-    display: block;
-    max-width: 100%; 
-    height: auto;
- }
- 
- ul {
-    margin: 0;
-    padding-left: 0;
-    list-style: none;
- }
- 
-
-:root {
-    --orange:  #FD9222;
-    --black: #111;
-    --dark-purple: #1E1823;
-    --white-gray: #fafafa;
-    --white: #ffffff;
-
-}
