@@ -1,0 +1,53 @@
+.subscribe_section {
+}
+
+.subscribe_container {
+}
+
+.subscribe_title {
+    text-align: center;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 28px;
+letter-spacing: -0.72px;
+text-transform: uppercase;
+}
+.subscribe_text {
+    max-width: 467px;
+    text-align: center;
+    line-height: 1.2;
+    margin: 24px auto;
+    max-width: 326px;
+  
+    color: var(--white);
+}
+.subscribe_button {display: flex;
+    padding: 14px 40px;
+    align-items: flex-start;
+    gap: 14px;
+    Style
+    border-radius: 100px;
+    background: #FD9222;
+}
+
+
+
+/*--------------------media------------------*/
+
+
+@media screen and (min-width: 1200px)
+{.subscribe_text {
+    max-width: 467px;
+    text-align: center;
+    line-height: 1.2;
+}}
+@media screen and (min-width: 768px)
+{
+
+}
+
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 768px), screen and (min-resolution: 192dpi) and (min-width: 768px), 
+screen and (min-resolution: 2dppx) and (min-width: 768px)
+{}
