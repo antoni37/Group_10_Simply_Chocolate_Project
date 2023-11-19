@@ -34,7 +34,7 @@ a {
 
     .header-content {
         justify-content: space-between;
-        padding: 25px 20px 0;
+        padding: 20px 20px 0;
     }
 
     .header-logo {
@@ -109,7 +109,7 @@ a {
 
     .header-content {
         justify-content: space-between;
-        padding: 25px 20px 0;
+        padding: 32px 24px 0;
     }
 
     .header-logo {
@@ -184,7 +184,7 @@ a {
 
     .header-content {
         justify-content: space-between;
-        padding: 25px 20px 0;
+        padding: 32px 24px 0;
     }
 
     .header-logo {
@@ -228,8 +228,8 @@ a {
     }
 
     .header-icon {
-        width: 21px;
-        height: 21px;
+        width: 24px;
+        height: 24px;
     }
 
     .logo-icon {
@@ -247,7 +247,7 @@ a {
         max-width: 428px;
     }
 
-    .hamburger-close {
+    .header-close {
         position: absolute;
         top: 24px;
         right: 24px;
