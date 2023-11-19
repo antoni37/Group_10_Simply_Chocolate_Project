@@ -54,6 +54,10 @@ a {
         height: 21px;
     }
 
+    .logo-icon {
+        stroke: none;
+    }
+
     .header-menu {
         display: flex;
         align-items: center;
@@ -87,3 +91,6 @@ a {
     }
 
 }
+
+/*----------Tablet----------*/
+
