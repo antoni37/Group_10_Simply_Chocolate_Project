@@ -11,6 +11,11 @@ body{
     height: auto;
 }
 
+.main {
+    display: flex;
+    justify-items: center;
+}
+
 .container {
 width: 1136px;
 height: 600px;
