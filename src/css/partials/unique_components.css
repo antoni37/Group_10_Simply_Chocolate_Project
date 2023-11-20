@@ -41,6 +41,7 @@
     align-items: flex-start;
     gap: 18px;
 }
+
 .unique_components_div {
     display: flex;
     flex-direction: column;
@@ -59,6 +60,7 @@
     letter-spacing: -0.28px;
     text-transform: uppercase;
 }
+
 .unique_components_div_paragraph_2 {
     color: #111;
     font-size: 14px;
@@ -68,6 +70,7 @@
     letter-spacing: -0.28px;
     text-transform: uppercase;
 }
+
 .unique_components_div_paragraph_3 {
     color: #FFF;
     font-size: 14px;
@@ -77,6 +80,7 @@
     letter-spacing: -0.28px;
     text-transform: uppercase;
 }
+
 .unique_components_div_paragraph_4 {
     color: #111;
     font-size: 14px;
@@ -110,10 +114,12 @@
     border-radius: 15px;
     border: 1px solid #FD9222;
 }
+
 .unique_components_div_front_1_image {
     display: flex;
     justify-content: center;
 }
+
 .unique_components_div_front_2 {
     position: absolute;
     width: 100%;
@@ -124,6 +130,7 @@
     border-radius: 15px;
     border: 1px solid #FD9222;
 }
+
 .unique_components_div_front_3 {
     position: absolute;
     width: 100%;
@@ -134,6 +141,7 @@
     border-radius: 15px;
     border: 1px solid #FD9222;
 }
+
 .unique_components_div_front_4 {
     position: absolute;
     width: 100%;
@@ -144,6 +152,7 @@
     border-radius: 15px;
     border: 1px solid #FD9222;
 }
+
 .unique_components_div_back {
     position: absolute;
     width: 100%;
