@@ -11,6 +11,16 @@ body{
     height: auto;
 }
 
+.container {
+width: 1136px;
+padding: 0 32px;
+}
+
+.section {
+    max-width: 1200px;
+    padding-bottom: 128px;
+}
+
 img {
     display: block;
     max-width: 100%; 
