@@ -26,6 +26,7 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+
     background-image: linear-gradient(180deg, rgba(17, 17, 17, 0.00) 0%, rgba(17, 17, 17, 0.40) 100%), url(/src/images/desk_bground@2x.jpg);
     border-radius: 30px;
     
@@ -124,8 +125,11 @@
  }
  
  .hero-scroll-icon {
-    /*lalala*/
+   display: flex;
+   align-items: center;
  }
+
+ 
 
  .container-hero-one {
     width: 1056px;
@@ -156,10 +160,11 @@
 
 .container-hero-three:hover,
 .container-hero-three:focus {
-   color: var(--orange);
+   fill: var(--orange);
    cursor: pointer;
    background-color: none;
 }
+
 
 .button-div-bye-now {
    display: flex;
@@ -368,7 +373,7 @@
    margin-top: 80px;
    margin-left: 32px;
    margin-right: 32px;
-   max-width: 1200px;
+   min-width: 1200px;
    flex-shrink: 0;
    background-position: center;
    background-size: cover;
@@ -462,9 +467,10 @@
       gap: 14px;
    }
    
-   .hero-scroll-icon {
-      /*lalala*/
-   }
+.hero-scroll-icon {
+   display: flex;
+   align-items: center;
+}
   
    .container-hero-one {
       width: 1056px;
