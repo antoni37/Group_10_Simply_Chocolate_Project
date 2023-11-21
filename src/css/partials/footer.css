@@ -2,11 +2,18 @@
 
 .footer {
     background-color: var(--dark-purple);
+    width: 375px;
+    color: var(--white);
+}
+
+.footer-icon {
+    stroke: var(--white);
+    fill: transparent;
 }
 
 .footer-content,
 .footer-menu {
-    display: flex;
+    padding: 32px 20px;
 }
 
 .footer-main_text--chocolate {
@@ -17,17 +24,29 @@
     color: var(--white);
 }
 
+a {
+    text-decoration: none;
+    color: var(--white);
+}
+
 /*----------Mobile----------*/
 
 @media screen and (min-width: 375px) and (max-width: 767px) {
 
+    .footer-content {
+        padding-bottom: 0;
+    }
+
     .footer-main_text {
         font-family: 'Montserrat';
-        font-size: 28px;
+        font-size: 24px;
         font-style: normal;
         font-weight: 500;
-        line-height: 34px;
-        letter-spacing: -0.56px;
+        line-height: 28px;
+        letter-spacing: -0.48px;
+
+        width: 300px;
+        height: 56px;
     }
     
     .footer-contact_us {
@@ -38,6 +57,61 @@
         font-style: normal;
         font-weight: 500;
         line-height: 18px;
+    }
+
+    .footer-nav {
+        display: flex;
+        align-items: flex-start;
+
+        border-bottom: 1px solid;
+        border-color: rgba(255, 255, 255, 0.10);
+        padding-bottom: 32px;
+    }
+
+    .footer-socials-block {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .footer-icons {
+        display: flex;
+        gap: 14px;
+        margin-left: 200px;
+    }
+
+    .footer-icon {
+        width: 22px;
+        height: 22px;
+    }
+
+    .footer-icon:hover,
+    .footer-icon:focus {
+        stroke: var(--orange);
+    }
+
+    .footer-phone,
+    .footer-mail {
+        color: var(--white);
+        text-align: center;
+        font-family: 'Montserrat';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: -0.28px;
+    }
+
+    .footer-menu {
+        padding-top: 16px;
+    }
+
+    .footer-menu-links {
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 16px;
+        letter-spacing: -0.28px;
     }
 
 }
