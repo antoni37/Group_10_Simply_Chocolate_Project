@@ -45,9 +45,6 @@
     }
 
     .how_its_made_svg_play {
-
-
-
         width: 35px;
         height: 35px;
         position: absolute;
@@ -294,5 +291,15 @@
 
     .how_its_made_svg_list {
         padding-right: 5px;
+    }
+}
+
+@media (min-device-pixel-ratio: 2),
+(-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .how_its_made_image_div {
+        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.40) 0%, rgba(0, 0, 0, 0.40) 100%),
+            url(../../images/desk_image.jpg), lightgray -158.445px -335.767px / 187.796% 186.969% no-repeat;
     }
 }
