@@ -4,7 +4,7 @@
     color: var(--white);
 }
 
-.container {
+.footer-container {
     background-color: var(--dark-purple);
 }
 
@@ -45,7 +45,7 @@ a {
 
 @media screen and (min-width: 375px) and (max-width: 767px) {
 
-    .container {
+    .footer-container {
         width: 375px;
     }
 
@@ -136,7 +136,7 @@ a {
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
 
-    .container {
+    .footer-container {
         width: 768px;
     }
     
@@ -234,7 +234,7 @@ a {
 
 @media screen and (min-width: 1200px) {
     
-    .container {
+    .footer-container {
         width: 1200px;
     }
     
