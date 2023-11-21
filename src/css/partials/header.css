@@ -95,6 +95,8 @@ a {
 
     NIE POSIADAM SKRYPTU ABY WYKONAĆ ANIMACJĘ POJAWIENIA SIĘ UKŁADU PRZY KLIKNIĘCIU BUTTONA
 
+
+
     /*-----Mobile Menu -- Mobile-----*/
 
     .mobile-menu-container {
@@ -192,6 +194,7 @@ a {
     }
 
 }
+
 
 /*----------Tablet----------*/
 
@@ -358,7 +361,7 @@ a {
 @media screen and (min-width: 1200px) {
 
     .header-container {
-        width: 1199px;
+        width: 1200px;
     }
 
     .mobile-menu-container {
@@ -371,7 +374,6 @@ a {
     }
 
     .header-logo {
-        font-family: 'Montserrat';
         font-size: 18px;
         font-style: italic;
         font-weight: 700;
@@ -381,6 +383,8 @@ a {
         display: flex;
         align-items: center;
         gap: 4px;
+
+        color: var(--black); 
 
     }
 
@@ -401,6 +405,7 @@ a {
         font-weight: 500;
         line-height: 16px;
         letter-spacing: -0.28px;
+        
     }
 
     .header-nav-icons {
@@ -421,6 +426,10 @@ a {
 
     .header-menu {
         display: none;
+    }
+
+    .header-link {
+        color: var(--black);
     }
     
 }
