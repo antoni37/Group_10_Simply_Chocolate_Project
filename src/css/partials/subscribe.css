@@ -1,0 +1,170 @@
+/*----------- MOBILE media ----------*/
+
+.subscribe_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+.subscribe_section {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%),
+    url(../../images/mob_subcribe@2x.jpg), lightgray -412px -477.287px / 320% 372.105%;
+
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.subscribe_title {
+  color: var(--white);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: -0.6px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0 42px;
+  width: 291px;
+  text-shadow: (0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.subscribe_text {
+  max-width: 326px;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.28px;
+  margin: 24px;
+  width: 326px;
+  color: var(--white);
+}
+.subscribe_button {
+  display: flex;
+  padding: 12px 28px;
+  align-items: flex-start;
+  gap: 14px;
+  border-radius: 100px;
+  background-color: var(--orange);
+  color: var(--white);
+  font-size: 18px;
+  font-style: normal;
+  min-width: 72px;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.06em;
+  border: transparent;
+  cursor: pointer;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.subscribe__button:hover,
+.subscribe__button:focus {
+  background-color: var(--orange);
+  transform: scale(1.05);
+}
+
+/*-------------------- DESKTOP--------DESKTOP -------------DESKTOP ----------*/
+
+@media screen and (min-width: 1200px) {
+  .subscribe_text {
+    min-width: 467px;
+    text-align: center;
+    line-height: 18px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -0.28px;
+  }
+  .subscribe_title {
+    color: #fff;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -0.72px;
+    text-transform: uppercase;
+    margin: 0 44px;
+  }
+
+  .subscribe_section {
+    display: inline-flex;
+    padding: 72px 367px 72px 366px;
+    justify-content: center;
+    align-items: center;
+    min-width: 1200px;
+    height: 370px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%),
+      url(../../images/desk_subcribe@2x.jpg), lightgray 0px -481.157px / 100% 375.122% no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .subscribe_button {
+    display: flex;
+    padding: 14px 40px;
+    align-items: flex-start;
+    gap: 14px;
+    width: 172px;
+  }
+}
+@media (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .subscribe_section {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%),
+      url(../../images/desk_subcribe@2x.jpg),
+      lightgray -158.445px -335.767px / 187.796% 186.969% no-repeat;
+  }
+}
+
+/*------TABLET ---------- TABLET--------------TABLET -----------*/
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
+  screen and (min-resolution: 192dpi) and (min-width: 768px),
+  screen and (min-resolution: 2dppx) and (min-width: 768px) {
+  .subscribe_section {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%),
+      url(../../images/tab_subcribe@2x.jpg), lightgray -412px -477.287px / 320% 372.105%;
+
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .subscribe_title {
+    font-size: 24px;
+    font-style: normal;
+    line-height: 28px;
+    letter-spacing: -0.72px;
+    width: 378px;
+  }
+  .subscribe_section {
+    width: 768px;
+    height: 370px;
+    display: inline-flex;
+    padding: 72px 151px 72px 150px;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
+  screen and (min-resolution: 192dpi) and (min-width: 768px),
+  screen and (min-resolution: 2dppx) and (min-width: 768px) {
+  .subscribe_section {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%),
+      url(../../images/tab_subcribe@2x.jpg), lightgray -412px -477.287px / 320% 372.105%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
