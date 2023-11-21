@@ -13,6 +13,11 @@ a {
     color: var(--black)
 }
 
+.header-link:hover,
+.header-link:focus {
+    color: var(--orange);
+}
+
 .header-icon {
     stroke: var(--black);
     fill: transparent;
@@ -34,7 +39,7 @@ a {
 
     .header-content {
         justify-content: space-between;
-        padding: 20px 20px 0;
+        padding: 25px 20px 19;
     }
 
     .header-logo {
@@ -104,12 +109,12 @@ a {
 @media screen and (min-width: 768px) and (max-width: 1199px) {
     
     .container {
-        width: 1199px;
+        width: 768px;
     }
 
     .header-content {
         justify-content: space-between;
-        padding: 32px 24px 0;
+        padding: 24px 32px;
     }
 
     .header-logo {
@@ -184,7 +189,7 @@ a {
 
     .header-content {
         justify-content: space-between;
-        padding: 32px 24px 0;
+        padding: 24px 32px 32px;
     }
 
     .header-logo {
