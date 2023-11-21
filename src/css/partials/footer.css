@@ -185,8 +185,106 @@ a {
     }
 
     .footer-icon {
-        width: 22px;
-        height: 22px;
+        width: 24px;
+        height: 24px;
+    }
+
+    .footer-phone,
+    .footer-mail {
+        color: var(--white);
+        text-align: center;
+        font-family: 'Montserrat';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: -0.28px;
+    }
+
+    .footer-menu {
+        padding-top: 0px;
+        padding-bottom: 16px;
+    }
+
+    .footer-menu-links {
+        display: flex;
+        flex-direction: row;
+        gap: 24px;
+        align-items: flex-start;
+
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 16px;
+        letter-spacing: -0.28px;
+
+        padding-top: 16px;
+        padding-bottom: 18px;
+
+        border-top: 1px solid;
+        border-color: rgba(255, 255, 255, 0.10);
+    }
+
+}
+
+/*----------Desktop----------*/
+
+@media screen and (min-width: 1200px) {
+    
+    .footer {
+        width: 1200px;
+    }
+    
+    .footer-content {
+        display: flex;
+        align-items: center;
+        padding: 50px 32px 54px;
+    }
+
+    .footer-main_text {
+        font-family: 'Montserrat';
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 34px;
+        letter-spacing: -0.56px;
+
+        width: 300px;
+        height: 56px;
+        margin-right: 543px;
+    }
+    
+    .footer-contact_us {
+        color: var(--white);
+        text-align: center;
+        font-family: 'Montserrat';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 18px;
+
+        margin-right: 137px;
+    }
+
+    .footer-nav {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .footer-socials-block {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .footer-icons {
+        display: flex;
+        gap: 14px;
+    }
+
+    .footer-icon {
+        width: 24px;
+        height: 24px;
     }
 
     .footer-phone,
