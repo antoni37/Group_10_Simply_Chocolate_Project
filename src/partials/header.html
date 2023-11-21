@@ -1,0 +1,100 @@
+
+<header class="header" id="header">
+    <div class="header-content container">
+        <a class="header-logo" href="index.html">SIMPLY CHOCOLATE
+            <svg class="header-icon logo-icon">
+                <use href="./images/icons.svg#icon-chocolate"></use>
+            </svg>
+        </a>
+        <nav class="header-nav">
+            <ul class="header-nav-links">
+                <li class="header-nav-home">
+                    <p class="header-nav-link"><a href="#header" class="header-link">Home</p></a>
+                </li>
+                <li class="header-nav-how_its_made">
+                    <p class="header-nav-link"><a href="how_its_made" class="header-link">How it's made?</p></a>
+                </li>
+                <li class="header-nav-our_products">
+                    <p class="header-nav-link"><a href="#our_products" class="header-link">Our products</p></a>
+                </li>
+                <li class="header-nav-top_sellers">
+                    <p class="header-nav-link"><a href="#top_sellers" class="header-link">Top sellers</p></a>
+                </li>
+                <li class="header-nav-chocolate_is_loved">
+                    <p class="header-nav-link"><a href="#chocolate_is_loved" class="header-link">Chocolate is loved</p></a>
+                </li>
+            </ul>
+            <ul class="header-nav-icons">
+                <li>
+                    <a class="header-nav-icon--instagram" href="https://www.instagram.com/goitpolska/" target="_blank" rel="noopener nofollow">
+                        <svg class="header-icon">
+                            <use href="./images/icons.svg#icon-instagram_mobile"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a class="header-icon--twitter" href="https://www.linkedin.com/company/goit-polska/" target="_blank" rel="noopener nofollow">
+                        <svg class="header-icon">
+                            <use href="./images/icons.svg#icon-twitter_mobile"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <button
+          class="header-menu menu-toggle js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu">
+
+          <svg class="header-menu-button">
+            <use href="./images/icons.svg#icon-hamburger"></use>
+          </svg>
+        </button>
+    </div>
+
+    <!---------- Mobile Menu ---------->
+
+    <!-- ------------------------- !!! UWAGA !!! ------------------------- 
+
+    DODAŁEM WŁAŚCIWOŚĆ 'display: none' DO MENU MOBILNEGO ABY NIE ZABURZAŁA UKŁADU STRONY - SAM UKŁAD ISTNIEJE
+
+    NIE POSIADAM SKRYPTU ABY WYKONAĆ ANIMACJĘ POJAWIENIA SIĘ UKŁADU PRZY KLIKNIĘCIU BUTTONA -->
+    
+    <div class="mobile-menu-container" id="mobile-menu">
+        <div class="mobile-menu-div">
+            <button class="mobile-menu-close">
+                <svg class="mobile-menu-close-icon">
+                    <use href="./images/icons.svg#icon-x_close"></use>
+                </svg>
+            </button>
+        <nav class="mobile-menu-nav">
+            <ul class="mobile-menu-nav-links">
+                <li><a class="mobile-menu-nav-link" href="#header">Home</a></li>
+                <li><a class="mobile-menu-nav-link" href="#how_its_made">How it's made?</a></li>
+                <li><a class="mobile-menu-nav-link" href="#our_products">Our products</a></li>
+                <li><a class="mobile-menu-nav-link" href="#top_sellers">Top sellers</a></li>
+                <li><a class="mobile-menu-nav-link" href="#chocolate_is_loved">Chocolate is loved</a></li>
+            </ul>
+            <ul class="mobile-menu-nav-icons">
+                <li>
+                    <a class="mobile-menu-icon" href="https://www.instagram.com/goitpolska/">
+                        <svg class="mobile-menu-icon--instagram">
+                            <use href="./images/icons.svg#icon-instagram_mobile"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a class="mobile-menu-icon" href="https://www.linkedin.com/company/goit-polska/">
+                        <svg class="mobile-menu-icon--twitter">
+                            <use href="./images/icons.svg#icon-twitter_mobile"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        </div>
+    </div>
+
+</header> 
+
