@@ -27,6 +27,7 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+
     background-image: linear-gradient(180deg, rgba(17, 17, 17, 0.00) 0%, rgba(17, 17, 17, 0.40) 100%), url(/src/images/desk_bground@2x.jpg);
     border-radius: 30px;
     
@@ -127,8 +128,11 @@
  }
  
  .hero-scroll-icon {
+
    fill: #FD9222;
  }
+
+ 
 
  .container-hero-one {
     min-width: 1056px;
@@ -157,11 +161,12 @@
 
 .container-hero-three:hover,
 .container-hero-three:focus {
-   color: var(--orange);
+   fill: var(--orange);
    cursor: pointer;
    background-color: transparent;
    
 }
+
 
 .button-div-bye-now {
    display: flex;
@@ -380,10 +385,12 @@ body{
 .section-hero {
    display: flex;
    background-color: #fafafa;
+
    margin-top: 62px;
    margin-left: 20px;
    margin-right: 20px;
    min-width: 335px;
+
    flex-shrink: 0;
    background-position: right;
    background-size: cover;
@@ -480,9 +487,11 @@ body{
       gap: 14px;
    }
    
+
    .hero-scroll-icon {
    width: 28px;
    height: 28px;   }
+
   
    .container-hero-one {
       width: 335px;
