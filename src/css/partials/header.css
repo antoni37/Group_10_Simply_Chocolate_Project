@@ -33,7 +33,7 @@ a {
 
 @media screen and (min-width: 375px) and (max-width: 767px) {
 
-    .container {
+    .header-container {
         width: 375px;
     }
 
@@ -196,7 +196,7 @@ a {
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
     
-    .container {
+    .header-container {
         width: 768px;
     }
 
@@ -356,7 +356,7 @@ a {
 
 @media screen and (min-width: 1200px) {
 
-    .container {
+    .header-container {
         width: 1199px;
     }
 
