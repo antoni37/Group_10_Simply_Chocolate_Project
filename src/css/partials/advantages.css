@@ -7,7 +7,6 @@
 .advantages_container {
   display: flex;
   gap: 88px;
-  display: flex;
   width: 375px;
   height: 758px;
   padding: 20px;
@@ -44,20 +43,9 @@
 /* --------- MEDIA TABLET------------*/
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
-  /*.advantages_section {
-    display: flex;
-    width: 768px;
-    max-height: 620px;
-    padding: 50px 32px;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    gap: 32px;
-    flex-shrink: 0;
-  }*/
-
   .advantages_list {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     column-gap: 60px;
     row-gap: 32px;
@@ -71,9 +59,9 @@
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .container {
-    max-width: 704px;
+    max-width: 768px;
   }
 }
 /*----------------MEDIA DESKTOP-------------*/
