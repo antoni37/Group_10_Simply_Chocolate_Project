@@ -1,3 +1,4 @@
+
 /*----------GLOBAL----------*/
 
 .header-content {
@@ -8,9 +9,12 @@
     display: flex;
 }
 
+.header-logo {
+    color: var(--black);
+}
+
 a {
     text-decoration: none;
-    color: var(--black)
 }
 
 .header-link:hover,
@@ -34,7 +38,7 @@ a {
 @media screen and (min-width: 375px) and (max-width: 767px) {
 
     .header-container {
-        width: 375px;
+        max-width: 767px;
     }
 
     .header-content {
@@ -93,6 +97,8 @@ a {
     DODAŁEM WŁAŚCIWOŚĆ HIDDEN DO MENU MOBILNEGO ABY NIE ZABURZAŁA UKŁADU STRONY - SAM UKŁAD ISTNIEJE
 
     NIE POSIADAM SKRYPTU ABY WYKONAĆ ANIMACJĘ POJAWIENIA SIĘ UKŁADU PRZY KLIKNIĘCIU BUTTONA
+
+
 
     /*-----Mobile Menu -- Mobile-----*/
 
@@ -192,17 +198,19 @@ a {
 
 }
 
+
 /*----------Tablet----------*/
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
     
     .header-container {
-        width: 768px;
+        max-width: 1199px;
     }
 
     .header-content {
         justify-content: space-between;
         padding: 24px 32px;
+        margin: 0 auto;
     }
 
     .header-logo {
@@ -357,7 +365,7 @@ a {
 @media screen and (min-width: 1200px) {
 
     .header-container {
-        width: 1199px;
+        width: 1200px;
     }
 
     .mobile-menu-container {
@@ -367,10 +375,10 @@ a {
     .header-content {
         justify-content: space-between;
         padding: 24px 32px 32px;
+        margin: 0 auto;
     }
 
     .header-logo {
-        font-family: 'Montserrat';
         font-size: 18px;
         font-style: italic;
         font-weight: 700;
@@ -380,6 +388,8 @@ a {
         display: flex;
         align-items: center;
         gap: 4px;
+
+        color: var(--black); 
 
     }
 
@@ -400,6 +410,7 @@ a {
         font-weight: 500;
         line-height: 16px;
         letter-spacing: -0.28px;
+        
     }
 
     .header-nav-icons {
@@ -421,5 +432,10 @@ a {
     .header-menu {
         display: none;
     }
+
+    .header-link {
+        color: var(--black);
+    }
     
 }
+
