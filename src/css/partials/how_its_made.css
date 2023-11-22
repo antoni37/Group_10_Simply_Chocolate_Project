@@ -1,6 +1,6 @@
 /* MEDIA!!!!!!!!!! */
 
-@media screen and (min-width: 375px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
     .how_its_made_section {
         display: flex;
         flex-direction: column;
