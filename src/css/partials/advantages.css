@@ -61,20 +61,32 @@
 
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 768px;
+    width: 768px;
   }
 }
+
+
+
 /*----------------MEDIA DESKTOP-------------*/
 
 @media screen and (min-width: 1200px) {
+
+  .container {
+    width: 1200px;
+    height: fit-content;
+    
+  }
   .advantages_section {
     display: flex;
     width: 1200px;
+    
     padding: 50px;
-    margin-top: 72px;
+    margin: 0 auto;
     justify-content: center;
     align-items: center;
-  }
+    margin-bottom: 128px;
+    }
+
   .advantages_list {
     display: flex;
     width: 1100px;
@@ -118,6 +130,10 @@
     flex-shrink: 0;
   }
 }
+
+
+
+
 /*--------END MEDIA------------*/
 
 .advantages_icons {

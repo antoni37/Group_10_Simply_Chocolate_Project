@@ -29,7 +29,9 @@
 
     background-image: linear-gradient(180deg, rgba(17, 17, 17, 0.00) 0%, rgba(17, 17, 17, 0.40) 100%), url(/src/images/desk_bground@2x.jpg);
     border-radius: 30px;
-    
+
+    margin-bottom: 72px;
+      
  }
 
 
@@ -44,6 +46,8 @@
     line-height: 34px; /* 121.429% */
     letter-spacing: -0.84px;
     width: 484px;
+
+    padding-bottom: 32px;
  }
 
 
@@ -135,7 +139,7 @@
 
  .container-hero-one {
     min-width: 1056px;
-    height: 179px;
+    /*height: 179px;*/
     margin-top: max(381px);
     margin-bottom: 0;
     gap: 32px;
@@ -144,8 +148,9 @@
  .container-hero-two {
    display: flex;
    gap: 14px;
-   margin-top: 32px;
+   /*margin-top: 32px;*/
    justify-content: space-between;
+    margin-bottom: 40px;
 }
 
 .container-hero-three {
@@ -396,6 +401,7 @@ body{
    margin-top: 62px;
    margin-left: 20px;
    margin-right: 20px;
+   margin-bottom: 72px;
    min-width: 335px;
 
    flex-shrink: 0;
