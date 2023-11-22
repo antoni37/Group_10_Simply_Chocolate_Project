@@ -1,26 +1,29 @@
-<div class="modal_explore_our_new is-hidden" data-modal>
-    <div class="modal_window_explore_our_new">
-        <button type="button" class="modal_close_button_explore_our_new" data-modal-close>
-            <svg class="modal_close_button_icon_explore_our_new" width="12" height="12">
-                <use href="./images/icons.svg#icon-x_close"></use>
+<div class="subscribe_modal is-open" modal-subscribe>
+    <div class="subscribe_modal_div">
+        <button class="subscribe_modal_button" type="button" modal-subscribe-close>
+            <svg class="subscribe_modal_svg" width="28" height="28">
+                <use href="/src/images/icons.svg#icon-x_close"></use>
             </svg>
         </button>
-        <p class="modal_paragraph_explore_our_new">
-            EXPLORE OUR <span class="modal_explore_our_new_span">NEW CHOCOLATE</span> FIRST!
-        </p>
-        <form class="form_explore_our_new">
-            <div class="modal_form_explore_our_new">
+        <div class="subscribe_img">
 
-                <div class="input_form_explore_our_new">
-                    <input required type="email" name="user-email" id="user-email" class="input_modal_explore_our_new"
-                        placeholder="Enter your email" />
-
-                </div>
+            <div class="subscribe_modal_form_div">
+                <p class="subscribe_modal_text" id="contact">
+                    Explore our <br /><span class="subscribe_modal_span">new chocolate</span> first!
+                </p>
+                <form>
+                    <div class="subscribe_modal_form_email">
+                        <label for="user-email" class="input"></label>
+                        <div class="subscribe_modal_email">
+                            <input class="subscribe_modal_input" id="user-email" type="email" name="email" required
+                                placeholder="Enter your email" />
+                        </div>
+                        <button class="subscribe_modal_button_submit" type="submit">
+                            <p class="subscribe_modal_button_text">Subscribe</p>
+                        </button>
+                    </div>
             </div>
-
-            <button class="button_subsribe_explore_our_new">
-                <h3 class="text_button_subsribe_our_new">Submit</h3>
-            </button>
-        </form>
+            </form>
+        </div>
     </div>
 </div>
