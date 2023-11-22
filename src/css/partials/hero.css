@@ -156,11 +156,22 @@
    gap: 14px;
 }
 
-.container-hero-three:hover,
-.container-hero-three:focus {
-   fill: var(--orange);
+
+.container-hero-three:hover .scroll-down-text {
+   color: var(--orange);
+
+
    cursor: pointer;
-   
+}
+.container-hero-three:hover .scroll-down {
+   background-color: var(--orange);
+   fill: var(--white);
+}
+.hero-scroll-icon:hover {
+   fill: var(--white);
+}
+.container-hero-three:hover {
+   fill: var(--white);
 }
 
 
