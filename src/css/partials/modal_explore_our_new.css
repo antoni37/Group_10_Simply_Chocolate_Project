@@ -1,0 +1,150 @@
+.modal_explore_our_new {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.modal_window_explore_our_new {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    width: 311px;
+    height: 350px;
+    border-radius: 15px;
+    border: 2px solid #111;
+    background: url(https://github.com/AdamZyla/Group_10_Simply_Chocolate_Project/blob/main/src/images/popup_bg.jpg?raw=true) no-repeat;
+    background-color: #FFF;
+
+}
+
+.modal_close_button_explore_our_new {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0;
+    cursor: pointer;
+}
+
+.modal_close_button_icon_explore_our_new {}
+
+.modal_close_button_explore_our_new:hover,
+.modal_close_button_explore_our_new:focus {
+
+    border: none;
+}
+
+
+
+
+
+.modal_paragraph_explore_our_new {
+    color: #111;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -0.72px;
+    text-transform: uppercase;
+    padding-top: 176px;
+    padding-left: 40px;
+    padding-bottom: 14px;
+    width: 298px;
+    height: 56px;
+}
+
+.modal_explore_our_new_span {
+    color: #FD9222;
+}
+
+.modal_form_explore_our_new {}
+
+.input_form_explore_our_new {
+    display: flex;
+    width: 313px;
+    height: 52px;
+    padding: 14px 24px;
+    align-items: flex-start;
+    gap: 40px;
+    border-radius: 30px;
+    margin-left: -12px;
+    border: 1.5px solid rgba(17, 17, 17, 0.05);
+}
+
+.input_modal_explore_our_new {
+    color: rgba(64, 64, 64, 0.30);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.36px;
+    border: none;
+
+}
+
+.button_subsribe_explore_our_new {
+    display: flex;
+    width: 137px;
+    padding: 17px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    border-radius: 100px;
+    background: #FD9222;
+    margin-left: -106px;
+    border: none;
+}
+
+.text_button_subsribe_our_new {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    position: absolute;
+}
+
+.form_explore_our_new {
+    display: flex;
+    padding-top: 26px;
+    padding-left: 40px;
+}
+
+
+@media screen and (min-width: 768px) {
+    .modal_window_explore_our_new {
+        width: 538px;
+        height: 412px;
+    }
+
+    .modal_paragraph_explore_our_new {
+        padding-top: 216px;
+        font-size: 24px;
+    }
+
+    .form_explore_our_new {
+        padding-top: 58px;
+        padding-left: 40px;
+
+    }
+
+    .button_subsribe_explore_our_new {
+        margin-left: 8px;
+    }
+
+    .input_modal_explore_our_new {
+        font-size: 18px;
+    }
+}
