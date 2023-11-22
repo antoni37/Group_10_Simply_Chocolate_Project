@@ -1,0 +1,135 @@
+.advantage_section {
+  background: var(--dark-purple);
+  padding: 50px 0;
+  margin-bottom: 100px;
+}
+
+.advantages_container {
+  display: flex;
+  gap: 88px;
+  width: 375px;
+  height: 758px;
+  padding: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.advanatges-list li:not(:first-child) {
+  margin-top: 20px;
+}
+/*h3*/
+.advantages_title {
+  color: var(--white);
+  font-size: 18px;
+  font-weight: 600;
+  font-style: normal;
+  margin-bottom: 18px;
+  margin-top: 22px;
+  font-family: Montserrat;
+  line-height: normal;
+}
+.advantages_text {
+  color: rgba(255, 255, 255, 0.7);
+  letter-spacing: -0.02em;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: left;
+  width: 308px;
+}
+
+/* --------- MEDIA TABLET------------*/
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .advantages_list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 60px;
+    row-gap: 32px;
+    justify-content: space-between;
+  }
+  .advantages_item {
+    flex-basis: calc(50% - 16px);
+    margin-bottom: 0;
+    max-width: 302px;
+    height: 243px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+/*----------------MEDIA DESKTOP-------------*/
+
+@media screen and (min-width: 1200px) {
+  .advantages_section {
+    display: flex;
+    width: 1200px;
+    height: 344px;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+  }
+  .advantages_list {
+    display: flex;
+    width: 1100px;
+    height: 244px;
+    justify-content: center;
+    align-items: flex-start;
+    flex-shrink: 0;
+    gap: 70px;
+  }
+  .advantages_item {
+    position: relative;
+    max-width: 308px;
+  }
+  .line {
+    color: #ffffff80;
+  }
+  .line:after {
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    left: 275px;
+    top: 150px;
+    right: 0;
+    width: 124px;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.5);
+    transform: rotate(90deg);
+  }
+  .advantages_text {
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .advantages_icons {
+    display: flex;
+    width: 62px;
+    height: 62px;
+    justify-content: center;
+    align-items: center;
+    gap: 7.303px;
+    flex-shrink: 0;
+  }
+}
+/*--------END MEDIA------------*/
+
+.advantages_icons {
+  border-radius: 365px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  padding: 10px;
+  width: 62px;
+  height: 62px;
+  justify-content: center;
+  align-items: center;
+  gap: 7.303px;
+}
+.advantages_section {
+  background: var(--dark-purple);
+}
