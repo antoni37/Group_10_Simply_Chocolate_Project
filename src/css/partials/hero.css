@@ -355,7 +355,7 @@
 /* MOBILE */ /* MOBILE */ /* MOBILE */ /* MOBILE */ /* MOBILE */ /* MOBILE */ /* MOBILE */ /* MOBILE */ /* MOBILE */ /* MOBILE */ /* MOBILE */ /* MOBILE */ /* MOBILE */ /* MOBILE */ /* MOBILE */ /* MOBILE */ /* MOBILE */ /* MOBILE */ /* MOBILE */ /* MOBILE */ /* MOBILE */ /* MOBILE */ /* MOBILE */ /* MOBILE */ /* MOBILE */ /* MOBILE */ /* MOBILE */ /* MOBILE */ /* MOBILE */ /* MOBILE */ 
 
 
-@media screen and (min-width: 375px) and (max-width: 767px)  {
+@media screen and (max-width: 767px)  {
 
 body{
       font-family: Montserrat, sans-serif;
@@ -364,7 +364,7 @@ body{
   }
 
 .container{
-   min-width: 335px;
+  
    min-height: 621px;
 }
 
