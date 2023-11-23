@@ -2,7 +2,7 @@
   "name": "parcel-project-template",
   "version": "1.1.0",
   "description": "",
-  "homepage": "https://AdamZyla.github.io/Group_10_Simply_Chocolate_Project",
+  "homepage": "https://antoni37.github.io/Group_10_Simply_Chocolate_Project",
   "scripts": {
     "dev": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /Group_10_Simply_Chocolate_Project/"
