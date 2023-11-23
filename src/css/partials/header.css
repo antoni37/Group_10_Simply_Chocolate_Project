@@ -1,4 +1,5 @@
 
+
 /*----------GLOBAL----------*/
 
 .header-content {
@@ -9,9 +10,12 @@
     display: flex;
 }
 
+.header-logo {
+    color: var(--black);
+}
+
 a {
     text-decoration: none;
-    color: var(--black)
 }
 
 .header-link:hover,
@@ -32,10 +36,10 @@ a {
 
 /*----------Mobile----------*/
 
-@media screen and (min-width: 375px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
 
     .header-container {
-        width: 375px;
+        max-width: 767px;
     }
 
     .header-content {
@@ -201,12 +205,13 @@ a {
 @media screen and (min-width: 768px) and (max-width: 1199px) {
     
     .header-container {
-        width: 768px;
+        max-width: 1199px;
     }
 
     .header-content {
         justify-content: space-between;
         padding: 24px 32px;
+        margin: 0 auto;
     }
 
     .header-logo {
