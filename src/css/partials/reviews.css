@@ -1,8 +1,12 @@
+
 .section-reviews {
   width: 375px;
   height: 404px;
+
   padding: 32px 0;
   margin: auto;
+
+
 }
 .section-reviews .conteiner {
   display: flex;
@@ -33,11 +37,13 @@
   display: flex;
   gap: 24px;
   overflow: auto;
+
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
 }
 .section-reviews ul.example::-webkit-scrollbar {
   display: none; /* Chrome, Safari and Opera */
+
 }
 .section-reviews li {
   width: 335px;
@@ -87,6 +93,7 @@
   margin: 0 13px;
   border-radius: 6px;
   border: none;
+
   transition-duration: 400ms;
 }
 .reviews-buttons button:hover,
@@ -94,6 +101,7 @@
 .reviews-buttons button:active {
   width: 23px;
   background-color: #fd9222;
+
 }
 .review-button-open {
   display: block;
@@ -121,6 +129,7 @@
     width: 768px;
     padding: 50px 0;
     margin: auto;
+
   }
   .section-reviews .conteiner {
     width: 768px;
@@ -156,8 +165,10 @@
 @media (min-width: 1200px) {
   .section-reviews {
     width: 1200px;
+
     padding: 64px 0;
     margin: auto;
+
   }
   .section-reviews .conteiner {
     width: 1200px;
