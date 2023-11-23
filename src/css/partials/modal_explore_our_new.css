@@ -1,0 +1,204 @@
+/* ======= MOBILE ======= */
+
+.subscribe_img {
+    background: url(/src/images/popup_bg.jpg), lightgray 50% / cover repeat-x;
+    height: 169px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.is-hidden {
+    pointer-events: none;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateX(-50%) translateY(-50%) scale(0) rotate(0deg) skew(40deg, 40deg);
+}
+
+.subscribe_modal {
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(46, 47, 66, 0.4);
+}
+
+.subscribe_modal_div {
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    width: 311px;
+    min-height: 350px;
+    background: #fff;
+    border-radius: 15px;
+}
+
+.subscribe_modal_button {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 24px;
+    right: 24px;
+    width: 24px;
+    height: 24px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.subscribe_modal_form_div {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 28px;
+}
+
+.subscribe_modal_form_email {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    padding-left: 12px;
+}
+
+.subscribe_modal_text {
+    color: #111;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.6px;
+    text-transform: uppercase;
+
+    padding: 0px 0px 0px 24px;
+    gap: 28px;
+    margin-top: 185px;
+}
+
+.subscribe_modal_span {
+    color: #fd9222;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.6px;
+    text-transform: uppercase;
+}
+
+.subscribe_modal_svg {
+    fill: #fff;
+    stroke: #fff;
+}
+
+.subscribe_modal_svg:hover {
+    fill: #fd9222;
+    stroke: #fd9222;
+}
+
+.subscribe_modal_email {
+    display: flex;
+    width: 263px;
+    height: 52px;
+    padding: 14px 18px;
+    gap: 40px;
+    border-radius: 25px;
+    align-items: flex-start;
+    border: 1.5px solid rgba(17, 17, 17, 0.05);
+}
+
+.subscribe_modal_input {
+    display: flex;
+    align-items: center;
+    gap: 21.78px;
+    flex: 1 0 0;
+    width: 263px;
+    border: none;
+}
+
+.subscribe_modal_input::placeholder {
+    color: rgba(64, 64, 64, 0.3);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.28px;
+}
+
+.subscribe_modal_button_submit {
+    position: absolute;
+    right: 24px;
+    display: flex;
+    width: 100px;
+    height: 52px;
+    padding: 14px 28px;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    border-radius: 100px;
+    background: #fd9222;
+    border: 1px solid #fd9222;
+}
+
+.subscribe_modal_button_text {
+    left: 32px;
+    top: 17px;
+    color: #fff;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+/* ===TABLET AND DESKOP=== */
+
+@media screen and (min-width: 768px) {
+
+
+    .subscribe_img {
+        height: 196px;
+    }
+
+    .subscribe_modal_div {
+        width: 538px;
+        min-height: 412px;
+    }
+
+    .subscribe_modal_form_email {
+        padding-left: 36px;
+    }
+
+    .subscribe_modal_text {
+        font-size: 24px;
+        line-height: 28px;
+        margin-top: 216px;
+    }
+
+    .subscribe_modal_span {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .subscribe_modal_email {
+        width: 313px;
+        border-radius: 30px;
+    }
+
+    .subscribe_modal_input::placeholder {
+        font-size: 18px;
+        letter-spacing: -0.36px;
+    }
+
+    .subscribe_modal_button_submit {
+        display: flex;
+        width: 137px;
+        height: 52px;
+        padding: 17px 40px;
+    }
+}
