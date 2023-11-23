@@ -1,7 +1,8 @@
 .section-products {
   width: 375px;
   height: 453px;
-  margin: 32px 0;
+  padding: 32px 0;
+  margin: auto;
 }
 .section-products .conteiner {
   display: flex;
@@ -120,7 +121,8 @@
 @media (min-width: 768px) {
   .section-products {
     width: 768px;
-    margin: 50px 0;
+    padding: 50px 0;
+    margin: auto;
   }
   .section-products .conteiner {
     width: 768px;
@@ -151,7 +153,8 @@
 @media (min-width: 1200px) {
   .section-products {
     width: 1200px;
-    margin: 64px 0;
+    padding: 64px 0;
+    margin: auto;
   }
   .section-products .conteiner {
     width: 1200px;
