@@ -49,37 +49,37 @@
       </li>
     </ul>
     <div class="reviews-buttons">
-      <button class="review-button1" type="button" onclick="scrollTo1()" />
-      <button class="review-button2 button-mobile" type="button" onclick="scrollTo2()" />
-      <button class="review-button3 button-mobile" type="button" onclick="scrollTo3()" />
-      <button class="review-buttonT button-tablet" type="button" onclick="scrollToT()" />
+      <button class="review-2button1" type="button" onclick="scroll2To1()" />
+      <button class="review-2button2 button-mobile" type="button" onclick="scroll2To2()" />
+      <button class="review-2button3 button-mobile" type="button" onclick="scroll2To3()" />
+      <button class="review-2buttonT button-tablet" type="button" onclick="scroll2ToT()" />
     </div>
-    <button class="review-button-open" type="button"><span>Leave a review</span></button>
+    <button class="review-button-open" type="button" data-modal-open><span>Leave a review</span></button>
   </div>
 </section>
 <script>
-  const scrollTo1 = () => {
+  const scroll2To1 = () => {
     const div = document.getElementById('mySS');
     div.scrollTo({
       left: 0,
       behavior: 'smooth',
     });
   };
-  const scrollTo2 = () => {
+  const scroll2To2 = () => {
     const div = document.getElementById('mySS');
     div.scrollTo({
       left: 359,
       behavior: 'smooth',
     });
   };
-  const scrollTo3 = () => {
+  const scroll2To3 = () => {
     const div = document.getElementById('mySS');
     div.scrollTo({
       left: 718,
       behavior: 'smooth',
     });
   };
-  const scrollToT = () => {
+  const scroll2ToT = () => {
     const div = document.getElementById('mySS');
     div.scrollTo({
       left: 368,
