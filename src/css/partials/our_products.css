@@ -140,6 +140,9 @@
   .section-products li {
     width: 270px;
   }
+  .section-products li div {
+    width: 270px;
+  }
   .products-buttons {
     margin-top: -10px;
   }
