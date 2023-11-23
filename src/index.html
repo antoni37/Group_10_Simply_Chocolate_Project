@@ -19,41 +19,151 @@
 
 
   <link rel="stylesheet" href="./css/main.css">
-
+<link rel="stylesheet" href="/src/css/partials/modal_buy_now.css">
+<link rel="stylesheet" href="/src/css/partials/top_sellers.css">
 
 </head>
 
 <body>
+<!---------------------- top-Sellers  Anton Odintsov--------------------------------->
+<section class="top_sellers_section">
+  <div class="container">
+  <div class="top_sellers_order" >
+    <h2 class="top_sellers_headlaine"><span class="top_sellers_span">Top</span> Sellers</h2>
+  <ul class="top_sellers" >
+      <li ><img class="top_sellers_imeges" src="/src/images/desk_topsellers_img01.jpg" width="368" height="464" srcset="/src/images/desk_topsellers_img01@2x.jpg " alt=""></li>
+      <li class="top_sellers_comebac">  <p class="comebac">Crazy enough chocolate originates from a bean just like the coffee bean called Cacao. 
+        Cacao has been around for thousands of years and was first discovered by the Native 
+        American tribe called the Mayans.</p></li>
+      <li><img  class="top_sellers_imeges" src="/src/images/desk_topsellers_img02@2x.jpg"  srcset="/src/images/desk_topsellers_img02@2x.jpg" alt="" width="368" height="464"></li>
+      <li class="none"><img class="top_sellers_imeges" src="/src/images/desk_topsellers_img03.jpg" srcset="/src/images/desk_topsellers_img03@2x.jpg" alt="" width="368" height="464"></li>
+  </ul>
+</div>
+  <div class="top_sellers_opis" >
+  <ul class="top_sellers_one">
+      <li>
+          <p class="top_sellers_paragraph">Crazy enough chocolate originates from a bean just like the coffee bean called Cacao. 
+              Cacao has been around for thousands of years and was first discovered by the Native 
+              American tribe called the Mayans.</p>
+          </li>  
 
-  <include src="./partials/header.html"></include>
+        <li>  <button type="button" class="top_sellers_button" data-modal-review-open>Buy now</button></li>
+</ul>
 
-  <main>
-
-    <include src="./partials/hero.html"></include>
-
-    <include src="./partials/advantages.html"></include>
-
-    <include src="./partials/unique_components.html"></include>
-
-    <include src="./partials/how_its_made.html"></include>
-
-    <include src="./partials/our_products.html"></include>
-
-    <include src="./partials/top_sellers.html"></include>
-
-    <include src="./partials/reviews.html"></include>
-
-    <include src="./partials/subscribe.html"></include>
-
-    <include src="./partials/modal_explore_our_new.html"></include>
-
-  </main>
-
-  <include src="./partials/footer.html"></include>
+</div></div>
+</section>
+ <!--------------------------MODAL_BUY_NOW------------------------------>
+<section class="backdrop  is-hidden" data-modal-review>
+  <div class="container">
+    <div class="modal-body">  
+       
+  <button type="button" class="close-button  "data-modal-review-close>
+   
+  <svg class="top_seller_svg"  width="28" height="28">
+    <use href="/src/images/icons.svg#icon-x_close"></use>
+    <path d="M21 7L7 21" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M7 7L21 21" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+    
+  </button>
+     <p class="modal-window"><span class="top_sellers_span " > Buy</span> now</p>
+     <div class="top_sellers_modal">
+     <ul class="top_sellers_card" >
+      <li class="width"> <img src="/src/images/buy_now_img01.jpg" srcset="/src/images/buy_now_img01@2x.jpg"  alt="" width="120" height="107"></li>
+      <button class="card_button">100g</button>
+    </ul>
+     <ul class="top_sellers_card" >
+      <li class="width" ><img src="/src/images/buy_now_img02.jpg" srcset="/src/images/buy_now_img02@2x.jpg" alt="" width="120" height="107"></li>
+      <button class="card_button">200g</button>
+       </ul>
+      <ul class="top_sellers_card">
+      <li class="width" ><img src="/src/images/buy_now_img03.jpg" srcset="/src/images/buy_now_img03@2x.jpg" alt="" width="120" height="107"></li>
+      <button class="card_button">300g</button>
+     </ul>
+    </div>
+     <form>
+        <div class="modal-first-box">
+          <label for="user-name" class="modal-form-label" >Personal information</label>
+          <div class="modal-info">
+            <input
+              type="text"
+              name="user-name"
+              id="user-name"
+              placeholder="Name"
+              class="modal-input" pattern
+            />
+            <input
+            type="text"
+            name="user-name"
+            id="user-name"
+            placeholder="Surname"
+            class="modal-input" pattern
+          />
+  
+          </div>
+        </div>
+        <div class="modal-first-box">
+          <label for="phone-number"  class="modal-form-label"  >Phone number</label>
+          <div class="modal-first-box">
+           <uly> 
+            <li> 
+              <input
+              type="tel"
+              name="phone-number"
+              id="phone-number"
+                placeholder="                 | Phone number"
+              class="modal-input" pattern
+            /></li>
+           
+           <li> 
+            <svg class="modal-form-icon" 
+             width="32" height="24">
+              <use href="/src/images/icons.svg#icon-flag"></use>
+              </svg></li>
+            <li class="modal-form-icon"  >  <p class="top_sellers_380">+380 </p></li>
+           </uly> </div>
+        </div>
+        <div class="modal-first-box">
+          <label  class="modal-form-label">Email</label>
+          <div class="modal-first-box">
+            <input
+              type="email"
+              name="email"
+              id="user_email"
+              placeholder="Enter your email"
+              class="modal-input" pattern
+            />
+          </div>
+        </div>
+        <div class="modal-first-box">
+          <label  class="modal-form-label">Card number</label>
+          <div class="modal-first-box">
+            <input
+              type="email"
+              name="email"
+              id="user_email"
+              placeholder="Enter  card"
+              class="modal-input" pattern
+            />
+          </div>
+        </div>
+        <div class="modal-form-comment-box">
+          <label for="user-comment"   class="modal-form-label"  >Comment</label>
+          <textarea
+            name="user-comment"
+            id="user-comment"
+            class="modal-form-textarea"
+            placeholder="Enter text" pattern
+          ></textarea>
+        </div>
+        <button class="form-send-button" type="submit" >Submit</button>
+      </form>
+    </div></div>
+  </section>
 
   <script src="./index.js" type="module"></script>
 
-  <script src="./js/modal-subsribe.js"></script>
+  <script src="/src/js/modal-leave-review.js"></script>
 
 </body>
 
