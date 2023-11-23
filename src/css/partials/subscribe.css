@@ -156,15 +156,3 @@
     align-items: center;
   }
 }
-
-@media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
-  screen and (min-resolution: 192dpi) and (min-width: 768px),
-  screen and (min-resolution: 2dppx) and (min-width: 768px) {
-  .subscribe_section {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%),
-      url(../../images/tab_subcribe@2x.jpg), lightgray -412px -477.287px / 320% 372.105%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-}
