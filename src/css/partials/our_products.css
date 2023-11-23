@@ -1,8 +1,12 @@
+
 .section-products {
   width: 375px;
+
   height: auto;
+
   padding: 32px 0;
   margin: auto;
+
 }
 .section-products .conteiner {
   display: flex;
@@ -32,11 +36,13 @@
   display: flex;
   gap: 24px;
   overflow: auto;
+
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
 }
 .section-products ul::-webkit-scrollbar {
   display: none; /* Chrome, Safari and Opera */
+
 }
 .section-products li {
   width: 335px;
@@ -103,6 +109,7 @@
   margin: 0 13px;
   border-radius: 6px;
   border: none;
+
   transition-duration: 400ms;
 }
 .products-buttons button:hover,
@@ -110,6 +117,7 @@
 .products-buttons button:active {
   width: 23px;
   background-color: #fd9222;
+
 }
 .button-tablet {
   display: none;
@@ -121,8 +129,10 @@
 @media (min-width: 768px) {
   .section-products {
     width: 768px;
+
     padding: 50px 0;
     margin: auto;
+
   }
   .section-products .conteiner {
     width: 768px;
@@ -156,8 +166,10 @@
 @media (min-width: 1200px) {
   .section-products {
     width: 1200px;
+
     padding: 64px 0;
     margin: auto;
+
   }
   .section-products .conteiner {
     width: 1200px;
